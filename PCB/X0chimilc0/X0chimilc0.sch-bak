@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -32,18 +32,6 @@ F0 "FPGA Lattice" 50
 F1 "FPGA.sch" 50
 $EndSheet
 $Sheet
-S 5650 3650 1750 1300
-U 5E2ACECE
-F0 "IO For Microcontroller" 50
-F1 "IO_MCU.sch" 50
-$EndSheet
-$Sheet
-S 1350 6150 3300 1200
-U 5E2AD09F
-F0 "IO For FPGA" 50
-F1 "IO_FPGA.sch" 50
-$EndSheet
-$Sheet
 S 8650 1300 2200 1450
 U 5E2AD524
 F0 "STM32 DD3 Memory" 50
@@ -54,5 +42,11 @@ S 2950 3700 1700 1650
 U 5E2AD622
 F0 "FPGA DDR3 Memory" 50
 F1 "DDR3_FPGA.sch" 50
+$EndSheet
+$Sheet
+S 6450 3550 3200 1600
+U 5E30BDF7
+F0 "Audio Codec WM8994ECS/R" 50
+F1 "Codec.sch" 50
 $EndSheet
 $EndSCHEMATC
