@@ -20,7 +20,7 @@ F0 "Power Supplies" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 5750 1200 2400 1550
+S 5100 1050 2400 1550
 U 5E2ACBAE
 F0 "Microcontroller: STM32 M7/M4 Dual" 50
 F1 "Microcontroller.sch" 50
