@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:X0chimilc0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -410,10 +411,10 @@ F 28 "*" H 3530 2652 50  0000 L CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J?
+L Connector_Generic:Conn_02x12_Odd_Even J1
 U 1 1 5E4F1C5B
 P 3150 10050
-F 0 "J?" H 3200 10767 50  0000 C CNN
+F 0 "J1" H 3200 10767 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 3200 10676 50  0000 C CNN
 F 2 "Connectors_Harwin:Harwin_LTek-Male_2x13x2.00mm_Straight_StrainRelief" H 3150 10050 50  0001 C CNN
 F 3 "~" H 3150 10050 50  0001 C CNN

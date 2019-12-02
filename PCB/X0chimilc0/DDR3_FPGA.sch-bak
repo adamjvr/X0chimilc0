@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:X0chimilc0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -13,4 +14,40 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L AVR-KiCAD-Lib-ICs:MT41K64M16TW-107_J-TR U?
+U 1 1 5DE49E54
+P 5550 1750
+F 0 "U?" H 6050 2165 50  0000 C CNN
+F 1 "MT41K64M16TW-107_J-TR" H 5750 2150 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-ICs:MT41K64M16TW_107_J_TR" H 5350 1950 50  0001 C CNN
+F 3 "http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 5600 2050 50  0001 C CNN
+F 4 "4.29000" H 5800 2200 50  0001 C CNN "Cost QTY: 1"
+F 5 "3.09830" H 5900 2300 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 6000 2400 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 6100 2500 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 6200 2600 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Micron Technology Inc." H 6300 2700 50  0001 C CNN "MFR"
+F 10 "MT41K64M16TW-107:J TR" H 6400 2800 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 6500 2900 50  0001 C CNN "Vendor"
+F 12 "557-2010-1-ND" H 6600 3000 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 6700 3100 50  0001 C CNN "Designer"
+F 14 "1.2mm" H 6800 3200 50  0001 C CNN "Height"
+F 15 "12/1/2019" H 7900 4300 50  0001 C CNN "Date Created"
+F 16 "12/1/2019" H 6900 3300 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 7000 3400 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7100 3500 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 7200 3600 50  0001 C CNN "Mounting"
+F 20 "96" H 7300 3700 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 7400 3800 50  0001 C CNN "Status"
+F 22 "*" H 7500 3900 50  0001 C CNN "Tolerance"
+F 23 "SDRAM-DDR3L" H 7600 4000 50  0001 C CNN "Type"
+F 24 "1.283V ~ 1.45V" H 7700 4100 50  0001 C CNN "Voltage"
+F 25 "BGA96" H 7800 4250 50  0001 C CNN "Package"
+F 26 "SDRAM - DDR3L Memory IC 1Gb (64M x 16) Parallel 933MHz 20ns 96-FBGA (8x14)" H 8100 4550 50  0001 C CNN "Description"
+F 27 "MT41K64M16TW-107_J-TR" H 6050 2074 50  0000 C CNN "_Value_"
+F 28 "*" H 8100 4550 50  0001 C CNN "Management_ID"
+	1    5550 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
