@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AVR-KiCAD-Lib-ICs:MT41K64M16TW-107_J-TR U?
+L AVR-KiCAD-Lib-ICs:MT41K64M16TW-107_J-TR U5
 U 1 1 5DE4E767
 P 6650 2300
-F 0 "U?" H 6700 2600 50  0000 C CNN
+F 0 "U5" H 6700 2600 50  0000 C CNN
 F 1 "MT41K64M16TW-107_J-TR" H 6850 2700 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-ICs:MT41K64M16TW_107_J_TR" H 6450 2500 50  0001 C CNN
 F 3 "http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf" H 6700 2600 50  0001 C CNN

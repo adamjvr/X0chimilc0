@@ -1,0 +1,17 @@
+# Design Notes
+
+### FPGA Power Supply Voltages
+- 1.1V
+- 2.5V
+
+### MCU Power Supply Voltages
+- 3.3V
+- 1.8V
+- Voltage ref (check chip) REF6225IDGKT
+### Audio Codec Supply Voltages
+- 3.3V
+- 1.8V
+
+### DDR3L Memory Supply Voltages
+- 1.35V
+- VTT (what voltage) 0.5-0.9V Ti chip thing
