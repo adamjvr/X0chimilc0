@@ -1,43 +1,106 @@
-8866483739927
-AVR-KiCAD-Lib-Resistors
-R0402
+23501837785088
+AVR-KiCAD-Lib-ICs
+381caBGA_LATTICE
 
 
 0
-2
-2
-AVR-KiCAD-Lib-Resistors
-R0603
+381
+381
+AVR-KiCAD-Lib-ICs
+DIP8
 
 
 0
-2
-2
-AVR-KiCAD-Lib-Resistors
-R0805
+8
+8
+AVR-KiCAD-Lib-ICs
+LD1117S50TR
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+4
+AVR-KiCAD-Lib-ICs
+MT41K64M16TW_107_J_TR
 
 
 0
-2
-2
-AVR-KiCAD-Lib-Resistors
-R1206
+78
+78
+AVR-KiCAD-Lib-ICs
+OPAx134_DIP8
 
 
 0
-2
-2
-AVR-KiCAD-Lib-Resistors
-R2010
+8
+8
+AVR-KiCAD-Lib-ICs
+QFN-20_EP_3.1x3.1_Pitch0.5mm
 
 
 0
-2
-2
-AVR-KiCAD-Lib-Resistors
-R2512
+14
+11
+AVR-KiCAD-Lib-ICs
+REF6225IDGKT
 
 
 0
-2
-2
+8
+8
+AVR-KiCAD-Lib-ICs
+SDS-50J
+
+
+0
+7
+6
+AVR-KiCAD-Lib-ICs
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+SOIC-8-N0.150
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+ST1L05APU33R
+
+
+0
+16
+10
+AVR-KiCAD-Lib-ICs
+STM32H745XIH6
+
+
+0
+265
+265
+AVR-KiCAD-Lib-ICs
+STUSB1600QFN24
+
+
+0
+32
+25
+AVR-KiCAD-Lib-ICs
+TPS54060DRCR
+
+
+0
+15
+11
+AVR-KiCAD-Lib-ICs
+WM8994ECS_R
+
+
+0
+72
+72
