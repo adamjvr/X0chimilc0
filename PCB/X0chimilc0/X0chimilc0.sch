@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -15,13 +15,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1450 1250 2350 1450
+S 850  1200 2350 1450
 U 5E2ACA94
 F0 "Power Supplies" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 5100 1050 2400 1550
+S 6900 1250 2400 1550
 U 5E2ACBAE
 F0 "Microcontroller: STM32 M7/M4 Dual" 50
 F1 "Microcontroller.sch" 50
@@ -33,7 +33,7 @@ F0 "FPGA Lattice" 50
 F1 "FPGA.sch" 50
 $EndSheet
 $Sheet
-S 8650 1300 2200 1450
+S 9450 1250 1100 1550
 U 5E2AD524
 F0 "STM32 DD3 Memory" 50
 F1 "DDR3_MCU.sch" 50
@@ -49,5 +49,11 @@ S 6450 3550 3200 1600
 U 5E30BDF7
 F0 "Audio Codec WM8994ECS/R" 50
 F1 "Codec.sch" 50
+$EndSheet
+$Sheet
+S 4050 1250 2150 1300
+U 5E02C3CE
+F0 "STM32 Power " 50
+F1 "MCU_Power.sch" 50
 $EndSheet
 $EndSCHEMATC

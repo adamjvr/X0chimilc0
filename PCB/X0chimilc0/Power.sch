@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:X0chimilc0-cache
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -14,40 +14,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L AVR-KiCAD-Lib-ICs:STM32H745XIH6 U1
-U 1 1 5DEFF51F
-P 5650 1050
-F 0 "U1" H 5250 1225 50  0000 C CNN
-F 1 "STM32H745XIH6" H 5700 1250 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-ICs:STM32H745XIH6" H 5450 1050 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32h745ii.pdf" H 5550 1150 50  0001 C CNN
-F 4 "17.02000" H 5750 1300 50  0001 C CNN "Cost QTY: 1"
-F 5 "11.75168" H 5850 1400 50  0001 C CNN "Cost QTY: 1000"
-F 6 "11.75168" H 5950 1500 50  0001 C CNN "Cost QTY: 2500"
-F 7 "11.75168" H 6050 1600 50  0001 C CNN "Cost QTY: 5000"
-F 8 "11.75168" H 6150 1700 50  0001 C CNN "Cost QTY: 10000"
-F 9 "STMicroelectronics" H 6250 1800 50  0001 C CNN "MFR"
-F 10 "STM32H745XIH6" H 6350 1900 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 6450 2000 50  0001 C CNN "Vendor"
-F 12 "497-19502-ND" H 6550 2100 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 6650 2200 50  0001 C CNN "Designer"
-F 14 "0.76mm" H 6750 2300 50  0001 C CNN "Height"
-F 15 "11/29/2019" H 7850 3400 50  0001 C CNN "Date Created"
-F 16 "11/29/2019" H 6850 2400 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 6950 2500 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 7050 2600 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 7150 2700 50  0001 C CNN "Mounting"
-F 20 "265" H 7250 2800 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 7350 2900 50  0001 C CNN "Status"
-F 22 "*" H 7450 3000 50  0001 C CNN "Tolerance"
-F 23 "Microcontroller Dual Core" H 7550 3100 50  0001 C CNN "Type"
-F 24 "3.3V" H 7650 3200 50  0001 C CNN "Voltage"
-F 25 "BGA" H 7750 3350 50  0001 C CNN "Package"
-F 26 "ARM® Cortex®-M4, Cortex®-M7 STM32H7 Microcontroller IC 32-Bit Dual-Core 240MHz, 480MHz 2MB (2M x 8) FLASH 240+25-TFBGA (14x14)" H 8050 3650 50  0001 C CNN "Description"
-F 27 "STM32H745XIH6" H 5250 1134 50  0000 C CNN "_Value_"
-F 28 "*" H 8050 3650 50  0001 C CNN "Management_ID"
-	1    5650 1050
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -87,10 +87,10 @@ F 28 "*" H 14950 10900 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:ACJS-MHDC T?
+L AVR-KiCAD-Lib-Connectors:ACJS-MHDC T4
 U 1 1 5DF12B1F
 P 12300 2850
-F 0 "T?" H 12033 3875 50  0000 C CNN
+F 0 "T4" H 12033 3875 50  0000 C CNN
 F 1 "ACJS-MHDC" H 12033 3784 50  0000 C CNN
 F 2 "AVR-KiCAD-Lib-Connectors:ACJS-MHDC" H 12100 4400 50  0001 C CNN
 F 3 "http://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDC.pdf" H 12200 4500 50  0001 C CNN
@@ -123,10 +123,10 @@ F 28 "*" H 13950 6200 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:ACJS-MHDC T?
+L AVR-KiCAD-Lib-Connectors:ACJS-MHDC T5
 U 1 1 5DF1777E
 P 12300 4500
-F 0 "T?" H 12033 5525 50  0000 C CNN
+F 0 "T5" H 12033 5525 50  0000 C CNN
 F 1 "ACJS-MHDC" H 12033 5434 50  0000 C CNN
 F 2 "AVR-KiCAD-Lib-Connectors:ACJS-MHDC" H 12100 6050 50  0001 C CNN
 F 3 "http://www.amphenol-sine.com/pdf/datasheet/ACJS-MHDC.pdf" H 12200 6150 50  0001 C CNN
