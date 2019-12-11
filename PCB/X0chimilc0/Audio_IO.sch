@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:X0chimilc0-cache
 EELAYER 30 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 1 10
 Title ""
 Date ""
 Rev ""

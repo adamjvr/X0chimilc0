@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 8
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -347,4 +347,8 @@ Wire Wire Line
 	5900 6250 6600 6250
 Text Label 5950 6250 0    39   ~ 0
 SDRAM_D12_MCU
+Wire Wire Line
+	5900 6550 6600 6550
+Text Label 5950 6550 0    39   ~ 0
+SDRAM_A0_MCU
 $EndSCHEMATC
