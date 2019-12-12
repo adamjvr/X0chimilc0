@@ -2289,21 +2289,21 @@ F 3 "" H 2600 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11850 7650 2    50   Input ~ 0
-DEBUG2_C1
+DEBUG2_C2
 Text GLabel 11850 7750 2    50   Input ~ 0
-DEBUG1_C1
+DEBUG1_C2
 Text GLabel 11850 8200 2    50   Input ~ 0
-ATTACH_C1
+ATTACH_C2
 Text GLabel 11850 8300 2    50   Input ~ 0
-VBUS_VALID_C1
+VBUS_VALID_C2
 Text GLabel 11850 8400 2    50   Input ~ 0
-SCL_C1
+SCL_C2
 Text GLabel 11850 8500 2    50   Input ~ 0
-SDA_C1
+SDA_C2
 Text GLabel 11850 8600 2    50   Input ~ 0
-ALERET#_C1
+ALERET#_C2
 Text GLabel 11850 8700 2    50   Input ~ 0
-RESET_C1
+RESET_C2
 Wire Wire Line
 	6750 9100 6550 9100
 Wire Wire Line
