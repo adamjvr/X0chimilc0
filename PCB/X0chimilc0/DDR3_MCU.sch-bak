@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 11
 Title ""
 Date ""
 Rev ""
@@ -387,6 +387,8 @@ $Comp
 L AVR-KiCAD-Lib-Inductors:MMZ1608B601CTAH0 FB?
 U 1 1 5E971085
 P 10050 2300
+AR Path="/5E2AD622/5E971085" Ref="FB?"  Part="1" 
+AR Path="/5E2AD524/5E971085" Ref="FB?"  Part="1" 
 F 0 "FB?" H 10050 2525 50  0000 C CNN
 F 1 "MMZ1608B601CTAH0" H 10100 2500 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0603" H 10050 2300 50  0001 C CNN
@@ -426,6 +428,8 @@ $Comp
 L power:+1V35 #PWR?
 U 1 1 5E97108D
 P 10600 1900
+AR Path="/5E2AD622/5E97108D" Ref="#PWR?"  Part="1" 
+AR Path="/5E2AD524/5E97108D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10600 1750 50  0001 C CNN
 F 1 "+1V35" H 10615 2073 50  0000 C CNN
 F 2 "" H 10600 1900 50  0001 C CNN
@@ -439,4 +443,353 @@ Connection ~ 9300 2300
 Connection ~ 8850 2300
 Wire Wire Line
 	8850 2300 9300 2300
+$Comp
+L AVR-KiCAD-Lib-Resistors:YC124-JR-0751RL RN?
+U 1 1 5E9A0D99
+P 2200 7000
+AR Path="/5E2AD622/5E9A0D99" Ref="RN?"  Part="1" 
+AR Path="/5E2AD524/5E9A0D99" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2246 6772 50  0000 R CNN
+F 1 "YC124-JR-0751RL" H 2900 7300 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:RN0804" H 2500 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf" H 2500 6950 50  0001 C CNN
+F 4 "0.10000" H 2300 7250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01179" H 2400 7350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 2500 7450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00911" H 2600 7550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00805" H 2700 7650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 2800 7750 50  0001 C CNN "MFR"
+F 10 "YC124-JR-0751RL" H 2900 7850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3000 7950 50  0001 C CNN "Vendor"
+F 12 "YC124J-51CT-ND" H 3100 8050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3200 8150 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 3300 8250 50  0001 C CNN "Height"
+F 15 "12/12/2019" H 4400 9350 50  0001 C CNN "Date Created"
+F 16 "12/12/2019" H 3400 8350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3500 8450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 3600 8550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 3700 8650 50  0001 C CNN "Mounting"
+F 20 "2" H 3800 8750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 3900 8850 50  0001 C CNN "Status"
+F 22 "5%" H 4000 8950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor Network" H 4100 9050 50  0001 C CNN "Type"
+F 24 "*" H 4200 9150 50  0001 C CNN "Voltage"
+F 25 "0804" H 4300 9300 50  0001 C CNN "Package"
+F 26 "51R" V 2155 6772 50  0000 R CNN "_Value_"
+F 27 "*" H 4600 9600 50  0001 C CNN "Management_ID"
+F 28 "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals" H 4600 9600 50  0001 C CNN "Description"
+	1    2200 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:YC124-JR-0751RL RN?
+U 1 1 5E9A0DB8
+P 2850 7000
+AR Path="/5E2AD622/5E9A0DB8" Ref="RN?"  Part="1" 
+AR Path="/5E2AD524/5E9A0DB8" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2896 6772 50  0000 R CNN
+F 1 "YC124-JR-0751RL" H 3550 7300 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:RN0804" H 3150 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf" H 3150 6950 50  0001 C CNN
+F 4 "0.10000" H 2950 7250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01179" H 3050 7350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3150 7450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00911" H 3250 7550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00805" H 3350 7650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 3450 7750 50  0001 C CNN "MFR"
+F 10 "YC124-JR-0751RL" H 3550 7850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3650 7950 50  0001 C CNN "Vendor"
+F 12 "YC124J-51CT-ND" H 3750 8050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3850 8150 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 3950 8250 50  0001 C CNN "Height"
+F 15 "12/12/2019" H 5050 9350 50  0001 C CNN "Date Created"
+F 16 "12/12/2019" H 4050 8350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4150 8450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4250 8550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4350 8650 50  0001 C CNN "Mounting"
+F 20 "2" H 4450 8750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4550 8850 50  0001 C CNN "Status"
+F 22 "5%" H 4650 8950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor Network" H 4750 9050 50  0001 C CNN "Type"
+F 24 "*" H 4850 9150 50  0001 C CNN "Voltage"
+F 25 "0804" H 4950 9300 50  0001 C CNN "Package"
+F 26 "51R" V 2805 6772 50  0000 R CNN "_Value_"
+F 27 "*" H 5250 9600 50  0001 C CNN "Management_ID"
+F 28 "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals" H 5250 9600 50  0001 C CNN "Description"
+	1    2850 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:YC124-JR-0751RL RN?
+U 1 1 5E9A0DD7
+P 3500 7000
+AR Path="/5E2AD622/5E9A0DD7" Ref="RN?"  Part="1" 
+AR Path="/5E2AD524/5E9A0DD7" Ref="RN?"  Part="1" 
+F 0 "RN?" V 3546 6772 50  0000 R CNN
+F 1 "YC124-JR-0751RL" H 4200 7300 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:RN0804" H 3800 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf" H 3800 6950 50  0001 C CNN
+F 4 "0.10000" H 3600 7250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01179" H 3700 7350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3800 7450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00911" H 3900 7550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00805" H 4000 7650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 4100 7750 50  0001 C CNN "MFR"
+F 10 "YC124-JR-0751RL" H 4200 7850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4300 7950 50  0001 C CNN "Vendor"
+F 12 "YC124J-51CT-ND" H 4400 8050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4500 8150 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 4600 8250 50  0001 C CNN "Height"
+F 15 "12/12/2019" H 5700 9350 50  0001 C CNN "Date Created"
+F 16 "12/12/2019" H 4700 8350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4800 8450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4900 8550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5000 8650 50  0001 C CNN "Mounting"
+F 20 "2" H 5100 8750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5200 8850 50  0001 C CNN "Status"
+F 22 "5%" H 5300 8950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor Network" H 5400 9050 50  0001 C CNN "Type"
+F 24 "*" H 5500 9150 50  0001 C CNN "Voltage"
+F 25 "0804" H 5600 9300 50  0001 C CNN "Package"
+F 26 "51R" V 3455 6772 50  0000 R CNN "_Value_"
+F 27 "*" H 5900 9600 50  0001 C CNN "Management_ID"
+F 28 "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals" H 5900 9600 50  0001 C CNN "Description"
+	1    3500 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:YC124-JR-0751RL RN?
+U 1 1 5E9A0DF6
+P 4150 7000
+AR Path="/5E2AD622/5E9A0DF6" Ref="RN?"  Part="1" 
+AR Path="/5E2AD524/5E9A0DF6" Ref="RN?"  Part="1" 
+F 0 "RN?" V 4196 6772 50  0000 R CNN
+F 1 "YC124-JR-0751RL" H 4850 7300 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:RN0804" H 4450 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf" H 4450 6950 50  0001 C CNN
+F 4 "0.10000" H 4250 7250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01179" H 4350 7350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 4450 7450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00911" H 4550 7550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00805" H 4650 7650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 4750 7750 50  0001 C CNN "MFR"
+F 10 "YC124-JR-0751RL" H 4850 7850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4950 7950 50  0001 C CNN "Vendor"
+F 12 "YC124J-51CT-ND" H 5050 8050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 5150 8150 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 5250 8250 50  0001 C CNN "Height"
+F 15 "12/12/2019" H 6350 9350 50  0001 C CNN "Date Created"
+F 16 "12/12/2019" H 5350 8350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5450 8450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5550 8550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5650 8650 50  0001 C CNN "Mounting"
+F 20 "2" H 5750 8750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5850 8850 50  0001 C CNN "Status"
+F 22 "5%" H 5950 8950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor Network" H 6050 9050 50  0001 C CNN "Type"
+F 24 "*" H 6150 9150 50  0001 C CNN "Voltage"
+F 25 "0804" H 6250 9300 50  0001 C CNN "Package"
+F 26 "51R" V 4105 6772 50  0000 R CNN "_Value_"
+F 27 "*" H 6550 9600 50  0001 C CNN "Management_ID"
+F 28 "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals" H 6550 9600 50  0001 C CNN "Description"
+	1    4150 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:YC124-JR-0751RL RN?
+U 1 1 5E9A0E15
+P 4800 7000
+AR Path="/5E2AD622/5E9A0E15" Ref="RN?"  Part="1" 
+AR Path="/5E2AD524/5E9A0E15" Ref="RN?"  Part="1" 
+F 0 "RN?" V 4846 6772 50  0000 R CNN
+F 1 "YC124-JR-0751RL" H 5500 7300 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:RN0804" H 5100 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf" H 5100 6950 50  0001 C CNN
+F 4 "0.10000" H 4900 7250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01179" H 5000 7350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 5100 7450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00911" H 5200 7550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00805" H 5300 7650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 5400 7750 50  0001 C CNN "MFR"
+F 10 "YC124-JR-0751RL" H 5500 7850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 5600 7950 50  0001 C CNN "Vendor"
+F 12 "YC124J-51CT-ND" H 5700 8050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 5800 8150 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 5900 8250 50  0001 C CNN "Height"
+F 15 "12/12/2019" H 7000 9350 50  0001 C CNN "Date Created"
+F 16 "12/12/2019" H 6000 8350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 6100 8450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 6200 8550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 6300 8650 50  0001 C CNN "Mounting"
+F 20 "2" H 6400 8750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 6500 8850 50  0001 C CNN "Status"
+F 22 "5%" H 6600 8950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor Network" H 6700 9050 50  0001 C CNN "Type"
+F 24 "*" H 6800 9150 50  0001 C CNN "Voltage"
+F 25 "0804" H 6900 9300 50  0001 C CNN "Package"
+F 26 "51R" V 4755 6772 50  0000 R CNN "_Value_"
+F 27 "*" H 7200 9600 50  0001 C CNN "Management_ID"
+F 28 "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals" H 7200 9600 50  0001 C CNN "Description"
+	1    4800 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:YC124-JR-0751RL RN?
+U 1 1 5E9A0E34
+P 5450 7000
+AR Path="/5E2AD622/5E9A0E34" Ref="RN?"  Part="1" 
+AR Path="/5E2AD524/5E9A0E34" Ref="RN?"  Part="1" 
+F 0 "RN?" V 5496 6772 50  0000 R CNN
+F 1 "YC124-JR-0751RL" H 6150 7300 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:RN0804" H 5750 6950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf" H 5750 6950 50  0001 C CNN
+F 4 "0.10000" H 5550 7250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01179" H 5650 7350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 5750 7450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00911" H 5850 7550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00805" H 5950 7650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 6050 7750 50  0001 C CNN "MFR"
+F 10 "YC124-JR-0751RL" H 6150 7850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 6250 7950 50  0001 C CNN "Vendor"
+F 12 "YC124J-51CT-ND" H 6350 8050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 6450 8150 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 6550 8250 50  0001 C CNN "Height"
+F 15 "12/12/2019" H 7650 9350 50  0001 C CNN "Date Created"
+F 16 "12/12/2019" H 6650 8350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 6750 8450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 6850 8550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 6950 8650 50  0001 C CNN "Mounting"
+F 20 "2" H 7050 8750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 7150 8850 50  0001 C CNN "Status"
+F 22 "5%" H 7250 8950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor Network" H 7350 9050 50  0001 C CNN "Type"
+F 24 "*" H 7450 9150 50  0001 C CNN "Voltage"
+F 25 "0804" H 7550 9300 50  0001 C CNN "Package"
+F 26 "51R" V 5405 6772 50  0000 R CNN "_Value_"
+F 27 "*" H 7850 9600 50  0001 C CNN "Management_ID"
+F 28 "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals" H 7850 9600 50  0001 C CNN "Description"
+	1    5450 7000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1350 7450 0    50   UnSpc ~ 0
+F_VTT
+Wire Wire Line
+	1350 7450 2050 7450
+Wire Wire Line
+	5600 7450 5600 7300
+Wire Wire Line
+	2050 7300 2050 7450
+Connection ~ 2050 7450
+Wire Wire Line
+	2050 7450 2150 7450
+Wire Wire Line
+	2150 7300 2150 7450
+Connection ~ 2150 7450
+Wire Wire Line
+	2150 7450 2250 7450
+Wire Wire Line
+	2250 7300 2250 7450
+Wire Wire Line
+	2350 7300 2350 7450
+Wire Wire Line
+	2700 7300 2700 7450
+Wire Wire Line
+	2800 7300 2800 7450
+Wire Wire Line
+	2900 7300 2900 7450
+Wire Wire Line
+	3000 7300 3000 7450
+Wire Wire Line
+	3350 7300 3350 7450
+Wire Wire Line
+	3450 7300 3450 7450
+Wire Wire Line
+	3550 7300 3550 7450
+Wire Wire Line
+	3650 7300 3650 7450
+Wire Wire Line
+	4000 7300 4000 7450
+Wire Wire Line
+	4100 7300 4100 7450
+Wire Wire Line
+	4200 7300 4200 7450
+Wire Wire Line
+	4300 7300 4300 7450
+Wire Wire Line
+	4650 7300 4650 7450
+Wire Wire Line
+	4750 7300 4750 7450
+Wire Wire Line
+	4850 7300 4850 7450
+Wire Wire Line
+	4950 7300 4950 7450
+Wire Wire Line
+	5300 7300 5300 7450
+Wire Wire Line
+	5400 7300 5400 7450
+Wire Wire Line
+	5500 7300 5500 7450
+Connection ~ 2700 7450
+Wire Wire Line
+	2700 7450 2800 7450
+Connection ~ 2250 7450
+Wire Wire Line
+	2250 7450 2350 7450
+Connection ~ 2350 7450
+Wire Wire Line
+	2350 7450 2700 7450
+Connection ~ 2800 7450
+Wire Wire Line
+	2800 7450 2900 7450
+Connection ~ 2900 7450
+Wire Wire Line
+	2900 7450 3000 7450
+Connection ~ 3000 7450
+Wire Wire Line
+	3000 7450 3350 7450
+Connection ~ 3350 7450
+Wire Wire Line
+	3350 7450 3450 7450
+Connection ~ 3450 7450
+Wire Wire Line
+	3450 7450 3550 7450
+Connection ~ 3550 7450
+Wire Wire Line
+	3550 7450 3650 7450
+Connection ~ 3650 7450
+Wire Wire Line
+	3650 7450 4000 7450
+Connection ~ 4000 7450
+Wire Wire Line
+	4000 7450 4100 7450
+Connection ~ 4100 7450
+Wire Wire Line
+	4100 7450 4200 7450
+Connection ~ 4200 7450
+Wire Wire Line
+	4200 7450 4300 7450
+Connection ~ 4300 7450
+Wire Wire Line
+	4300 7450 4650 7450
+Connection ~ 4650 7450
+Wire Wire Line
+	4650 7450 4750 7450
+Connection ~ 4750 7450
+Wire Wire Line
+	4750 7450 4850 7450
+Connection ~ 4850 7450
+Wire Wire Line
+	4850 7450 4950 7450
+Connection ~ 4950 7450
+Wire Wire Line
+	4950 7450 5300 7450
+Connection ~ 5300 7450
+Wire Wire Line
+	5300 7450 5400 7450
+Connection ~ 5400 7450
+Wire Wire Line
+	5400 7450 5500 7450
+Connection ~ 5500 7450
+Wire Wire Line
+	5500 7450 5600 7450
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 10
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -1538,4 +1538,14 @@ Wire Wire Line
 	8950 3400 14350 3400
 Text Notes 5800 1850 0    236  ~ 47
 WM8994ECS/R Audio Codec
+Text Notes 14100 3400 0    50   ~ 0
+PD13
+Text Notes 14100 3500 0    50   ~ 0
+PD12
+Text Notes 13800 3300 0    50   ~ 0
+Default I2C Address: 0011010
+Text Notes 11900 6650 0    50   ~ 0
+LEFT Speaker
+Text Notes 11900 7000 0    50   ~ 0
+RIGHT Speaker
 $EndSCHEMATC
