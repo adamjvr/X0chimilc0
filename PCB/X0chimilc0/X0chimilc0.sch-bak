@@ -45,7 +45,7 @@ F0 "Audio Codec WM8994ECS/R" 50
 F1 "Codec.sch" 50
 $EndSheet
 $Sheet
-S 6850 3100 2150 1300
+S 6900 3100 2150 1300
 U 5E02C3CE
 F0 "STM32 Power " 50
 F1 "MCU_Power.sch" 50
